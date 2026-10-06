@@ -1,0 +1,5 @@
+# MEBOT - Arama Motoru ve Bot Engelleme
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</IfModule>

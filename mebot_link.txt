@@ -1,0 +1,24 @@
+==================================================================
+           MEBOT 0.1 - GİZLİ & ÖZEL ERİŞİM BİLGİLERİ
+==================================================================
+
+1) GİZLİ DIŞ İNTERNET LİNKİ (Telefon, tablet, başka PC'ler için):
+   https://blend-def-specials-folder.trycloudflare.com
+
+   * Bu link Google'da veya arama motorlarında ASLA ÇIKMAZ.
+   * noindex, nofollow, noarchive ve robots.txt ile tamamen gizlenmiştir.
+   * Google Play / App Store gibi mağazalarda YOKTUR.
+   * Yalnızca bu linki gönderdiğiniz kişiler açabilir!
+
+2) EV / AYNI Wİ-Fİ AĞI LİNKİ (Aynı modeme bağlı telefonlar için):
+   http://192.168.1.102:8000
+
+3) BİLGİSAYAR İÇİN YEREL LİNK:
+   http://127.0.0.1:8000
+
+------------------------------------------------------------------
+* ADMİN PANELİ KODU: 565856
+  (Giriş ekranında şifre kutusuna "565856" yazarak veya sayfa altındaki
+   Admin Kodu butonuna tıklayarak açabilirsiniz)
+* Şifreli hesaplar users_db.json dosyasında güvenle saklanır.
+==================================================================

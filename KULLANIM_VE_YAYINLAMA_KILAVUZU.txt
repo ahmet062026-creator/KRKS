@@ -1,0 +1,59 @@
+================================================================================
+   MEBOT 0.1 - EN GÜÇLÜ VE ZEKİ, İLK YERLİ SÜPER MODEL
+   TEK KLASÖRDE EKSİKSİZ WEB VE YAPAY ZEKA PAKETİ
+================================================================================
+
+Bu klasör, MEBOT'u dilediğiniz herhangi bir HTTP sunucusunda, web hostingde,
+Vercel, Netlify, Render, cPanel veya kendi sunucunuzda yayınlamanız için
+gerekli tüm dosyaları tek bir yerde toplar.
+
+--------------------------------------------------------------------------------
+1. KLASÖRDEKİ DOSYALAR VE GÖREVLERİ
+--------------------------------------------------------------------------------
+• index.html       : MEBOT ana arayüzü (Chat, düşünme animasyonu, 6 haneli şifre ekranı,
+                     admin paneli, Google/arama motoru engelleme noindex etiketleri).
+• style.css        : Özel tasarım, uzay yıldız teması, modern yarı saydam sohbet kutuları.
+• app.js           : MEBOT akıl yürütme motoru, çoklu cihaz şifre kontrolü, admin bypass (565856),
+                     Gemini API entegrasyonu, mesaj silme ve akıcı streaming.
+• bg-stars.jpg     : Arka plan uzay görseli.
+• server.py        : İsteğe bağlı Python backend sunucusu (Render, VPS, PythonAnywhere veya
+                     yerel kullanım için).
+• users_db.json    : Kullanıcı hesapları ve şifreli sohbet geçmişi veritabanı.
+• robots.txt       : Google ve tüm arama botlarının siteyi taramasını engelleyen kural dosyası.
+• .htaccess        : Apache, cPanel ve LiteSpeed sunucular için noindex güvenlik ayarları.
+• _headers         : Netlify ve Cloudflare Pages için noindex güvenlik başlıkları.
+• vercel.json      : Vercel için noindex arama motoru engelleme yapılandırması.
+• requirements.txt : Python sunucusu için gerekli kütüphaneler (requests, beautifulsoup4 vb.).
+• Procfile         : Render / Railway gibi bulut platformları için başlatma komutu.
+• MEBOT_BASLAT.bat : Windows bilgisayarınızda tek tıkla yerel başlatıcı.
+
+--------------------------------------------------------------------------------
+2. NASIL HTTP / WEB SİTESİ YAPABİLİRSİNİZ? (ÖNERİLEN ÜCRETSİZ YÖNTEMLER)
+--------------------------------------------------------------------------------
+
+YÖNTEM A: Vercel veya Netlify (En Kolay, En Hızlı, 7/24 Açık ve Ücretsiz)
+1. https://vercel.com veya https://netlify.com adresine ücretsiz üye olun.
+2. Bu klasördeki dosyaları doğrudan "Deploy" (sürükle-bırak veya GitHub) ile yükleyin.
+3. Size anında kalıcı bir link verecektir (örn: https://mebot-ai.vercel.app).
+4. Bu link 7/24 bilgisayarınız kapalıyken bile çalışır, arama motorlarında çıkmaz!
+
+YÖNTEM B: Render.com veya PythonAnywhere (Tam Python Sunucusu ile 7/24)
+1. https://render.com veya https://pythonanywhere.com adresine gidin.
+2. Web Service olarak bu klasörü seçin (Start command: python server.py).
+3. Hem Python yapay zeka arka planı hem de web arayüzü 7/24 aktif kalır.
+
+YÖNTEM C: Kendi Hostinginiz / Domaininiz (cPanel, Plesk, Apache, Nginx)
+1. Hostinginizin 'public_html' veya 'www' klasörüne bu klasörün içeriğini yükleyin.
+2. Siteniz doğrudan http://siteniz.com adresinde yayına girer.
+
+--------------------------------------------------------------------------------
+3. GÜVENLİK, ADMİN VE ŞİFRE BİLGİLERİ
+--------------------------------------------------------------------------------
+• 6 Haneli PIN & İsim: Kullanıcılar belirledikleri isim ve 6 haneli şifreyle girer.
+• Admin Şifresi / Kodu : 565856
+  (Giriş ekranında şifre kutusuna 565856 yazılarak veya alttaki butondan açılır)
+• Admin Yetkileri: Kayıtlı hesapları görme, kullanıcının sohbetlerini okuma ve
+  "Sil" butonuna basarak hesabı/sohbeti tamamen silme.
+• Arama Motorları: Google, Bing, Yandex vb. botlar 'noindex' ve 'robots.txt' ile
+  kesinlikle engellenmiştir, sitede aramayla çıkmaz. Yalnızca linki bilenler girebilir.
+================================================================================
